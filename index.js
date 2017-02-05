@@ -1,8 +1,14 @@
 const readFeed = require('./lib/readFeed');
+const addToTransmission = require('./lib/addToTransmission');
+const config = require('./.config.json');
 
-readFeed('http://showrss.info/user/70577.rss?magnets=true&namespaces=true&name=null&quality=null&re=null')
-  .then(items => {
-    items.map(item => {
-      console.log(item.description);
+Promise
+  .all(config.feeds.map(readFeed))
+  .then(feeds => {
+    feeds.forEach(items => {
+      items.map(item => {
+        addToTransmission(item.link);
+        console.log(item.description);
+      });
     });
   });
