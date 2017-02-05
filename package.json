@@ -1,0 +1,17 @@
+{
+  "name": "transmission-rss-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaya/transmission-rss-node.git"
+  },
+  "author": "Gaya Kessler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gaya/transmission-rss-node/issues"
+  },
+  "homepage": "https://github.com/Gaya/transmission-rss-node#readme"
+}
