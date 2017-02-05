@@ -16,6 +16,7 @@
   "homepage": "https://github.com/Gaya/transmission-rss-node#readme",
   "dependencies": {
     "feedparser": "^2.1.0",
-    "request": "^2.79.0"
+    "request": "^2.79.0",
+    "transmission": "^0.4.9"
   }
 }
