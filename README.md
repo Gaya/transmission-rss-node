@@ -22,7 +22,7 @@ Enables automatic RSS feed torrents to be added to Transmission.
 }
 ```
 
-5. Run once by entering the following command:
+Run once by entering the following command:
 
 ```
 npm start
