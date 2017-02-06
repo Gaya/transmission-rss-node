@@ -8,9 +8,11 @@ Enables automatic RSS feed torrents to be added to Transmission.
 
 2. Put the source of somewhere on your system (or server running transmission).
 
-3. Create a `.config.json` file in the root of the project.
+3. `npm install`
 
-4. Add the following:
+4. Create a `.config.json` file in the root of the project.
+
+Add the following:
 
 ```
 {
