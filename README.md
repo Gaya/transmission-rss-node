@@ -30,12 +30,22 @@ Run once by entering the following command:
 npm start
 ```
 
+or
+
+```
+node ./
+```
+
 ##Configuration
 
 `feeds`: An array of feeds you wish to read.
+
 `host`: Host IP of Transmission. `0.0.0.0` for localhost or enter your remote machine's ip.
+
 `port`: The Transmission port.
+
 `username`: Transmission's username.
+
 `password`: Transmission's password.
 
 ##Running automatically
